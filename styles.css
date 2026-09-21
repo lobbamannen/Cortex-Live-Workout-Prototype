@@ -12,3 +12,7 @@
 
 /* Set editing */
 .set-tools{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px}.set-tool{border:1px solid var(--border);background:#111216;color:#d4d4d8;border-radius:11px;padding:11px 6px;font-size:10px;font-weight:850;letter-spacing:.03em}.set-tool.add{border-color:rgba(249,115,22,.45);color:var(--orange2)}.set-tool.remove{color:#fca5a5}.set-tool:disabled{opacity:.3}
+
+/* Keep lower workout controls reachable behind the fixed rest timer */
+body:has(.rest) .content{padding-bottom:390px}
+@media(max-height:760px){body:has(.rest) .content{padding-bottom:430px}}
