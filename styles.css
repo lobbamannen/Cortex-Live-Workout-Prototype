@@ -16,3 +16,6 @@
 /* Keep lower workout controls reachable behind the fixed rest timer */
 body:has(.rest) .content{padding-bottom:390px}
 @media(max-height:760px){body:has(.rest) .content{padding-bottom:430px}}
+
+/* Inline rest timer: below history, above set rows */
+.focus-card .rest{position:relative;z-index:auto;left:auto;transform:none;bottom:auto;width:100%;margin:14px 0;background:#0a0a0a;box-sizing:border-box}.focus-card .rest-time{font-size:56px}body:has(.rest) .content{padding-bottom:24px}@media(max-height:760px){body:has(.rest) .content{padding-bottom:24px}}
